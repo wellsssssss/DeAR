@@ -22,14 +22,14 @@ This repository contains the official PyTorch implementation of **DeAR**, accept
 
 ### The DeAR Framework
 <p align="center">
-  <img src="assets/figure2.png" width="100%">
+  <img src="main/DeAR/assets/figure2.png" width="100%">
 </p>
 
 [cite_start]*Figure 2. The overall framework of DeAR. [cite: 104] [cite_start]At a deep layer J, we insert learnable attribute tokens into the frozen vision encoder and the text encoder. [cite: 104] [cite_start]Information flow in these subsequent layers is precisely controlled by our Role-Based Attention Mask mechanism. [cite: 105]*
 
 ### Traditional vs. Role-Based Masking
 <p align="center">
-  <img src="assets/figure1.png" width="80%">
+  <img src="main/DeAR/assets/figure1.png" width="80%">
 </p>
 
 [cite_start]*Figure 1. For a Generalization Head (e.g., Layer 9 Head 0), our Role-Based Mask explicitly blocking the original CLS and Patch tokens from interacting to the inserted Attribute Tokens. [cite: 29]*
